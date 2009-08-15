@@ -33,7 +33,7 @@ VIAddVersionKey "FileVersion" "${PRODUCT_VERSION}"
 Page components
 Page directory
 Page instfiles
-;Page custom finalPage
+Page custom finalPage
 
 UninstPage uninstConfirm
 UninstPage instfiles
@@ -57,9 +57,9 @@ Function finalPage
 
 	nsDialogs::Create 1018
 	Pop $0
-	${NSD_CreateLabel} 75u 30u 80% 8u "GMapCatcher was succesfully installed on your computer."
+	${NSD_CreateLabel} 75u 30u 80% 8u "${PRODUCT_NAME} was succesfully installed on your computer."
 	Pop $0
-	${NSD_CreateCheckbox} 80u 50u 50% 8u "Run GMapCatcher v${PRODUCT_VERSION}"
+	${NSD_CreateCheckbox} 80u 50u 50% 8u "Run ${PRODUCT_NAME} v${PRODUCT_VERSION}"
 	Pop $CHECKBOX
     SendMessage $CHECKBOX ${BM_SETCHECK} ${BST_CHECKED} 0
     GetFunctionAddress $1 OnCheckbox
