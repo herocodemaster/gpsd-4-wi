@@ -1,0 +1,163 @@
+2009/08/13 21:57:43 Starting cygwin install, version 2.573.2.3
+2009/08/13 21:57:43 io_stream_cygfile: fopen(/etc/setup/last-action) failed 2 No such file or directory
+2009/08/13 21:57:43 io_stream_cygfile: fopen(/etc/setup/last-mirror) failed 2 No such file or directory
+2009/08/13 21:57:43 io_stream_cygfile: fopen(/etc/setup/last-connection) failed 2 No such file or directory
+2009/08/13 21:57:43 io_stream_cygfile: fopen(/etc/setup/last-cache) failed 2 No such file or directory
+2009/08/13 21:57:43 io_stream_cygfile: fopen(/etc/setup/last-extrakeys) failed 2 No such file or directory
+2009/08/13 21:57:43 Current Directory: C:\Documents and Settings\Win XP\Desktop
+2009/08/13 21:57:43 Changing gid to Users
+2009/08/13 21:57:43 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2009/08/13 21:57:46 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2009/08/13 21:57:46 source: network install
+2009/08/13 21:57:48 root: C:\cygwin binary system
+2009/08/13 21:57:55 io_stream_cygfile: fopen(/etc/setup/last-cache) failed 2 No such file or directory
+2009/08/13 21:57:55 Selected local directory: C:\Documents and Settings\Win XP\Desktop
+2009/08/13 21:57:56 net: Direct
+2009/08/13 21:57:56 io_stream_cygfile: fopen(/etc/setup/mirrors-lst) failed 2 No such file or directory
+2009/08/13 21:57:58 io_stream_cygfile: fopen(/etc/setup/mirrors-lst) failed 2 No such file or directory
+2009/08/13 21:57:58 io_stream_cygfile: fopen(/etc/setup/last-mirror) failed 2 No such file or directory
+2009/08/13 21:57:58 site: http://www.goh4.com/cygwin/
+2009/08/13 21:58:01 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2009/08/13 21:58:08 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/alternatives/alternatives-1.3.30c-3.tar.bz2
+2009/08/13 21:58:09 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/ash/ash-20040127-4.tar.bz2
+2009/08/13 21:58:09 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/base-files/base-files-3.7-1.tar.bz2
+2009/08/13 21:58:10 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/base-passwd/base-passwd-2.2-1.tar.bz2
+2009/08/13 21:58:12 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/bash/bash-3.2.49-22.tar.bz2
+2009/08/13 21:58:15 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/bzip2/bzip2-1.0.5-3.tar.bz2
+2009/08/13 21:58:27 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/coreutils/coreutils-6.10-2.tar.bz2
+2009/08/13 21:58:27 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/crypt/crypt-1.1-1.tar.bz2
+2009/08/13 21:58:29 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/cygutils/cygutils-1.3.4-1.tar.bz2
+2009/08/13 21:58:36 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/cygwin/cygwin-1.5.25-15.tar.bz2
+2009/08/13 21:58:40 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/cygwin-doc/cygwin-doc-1.4-4.tar.bz2
+2009/08/13 21:58:41 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/editrights/editrights-1.01-2.tar.bz2
+2009/08/13 21:58:43 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/findutils/findutils-4.4.0-3.tar.bz2
+2009/08/13 21:58:47 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/gawk/gawk-3.1.6-1.tar.bz2
+2009/08/13 21:58:48 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/gettext/gettext-0.17-4.tar.bz2
+2009/08/13 21:58:49 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/grep/grep-2.5.3-1.tar.bz2
+2009/08/13 21:59:01 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/groff/groff-1.19.2-2.tar.bz2
+2009/08/13 21:59:02 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/gzip/gzip-1.3.12-2.tar.bz2
+2009/08/13 21:59:03 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/less/less-382-1.tar.bz2
+2009/08/13 21:59:04 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/bzip2/libbz2_1/libbz2_1-1.0.5-3.tar.bz2
+2009/08/13 21:59:04 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/gcc4/libgcc1/libgcc1-4.3.2-2.tar.bz2
+2009/08/13 21:59:09 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/libiconv/libiconv2/libiconv2-1.13-1.tar.bz2
+2009/08/13 21:59:09 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/gettext/libintl3/libintl3-0.14.5-1.tar.bz2
+2009/08/13 21:59:09 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/gettext/libintl8/libintl8-0.17-4.tar.bz2
+2009/08/13 21:59:11 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/ncurses/libncurses8/libncurses8-5.5-4.tar.bz2
+2009/08/13 21:59:13 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/ncurses/libncurses9/libncurses9-5.7-5.tar.bz2
+2009/08/13 21:59:15 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/pcre/libpcre0/libpcre0-7.8-1.tar.bz2
+2009/08/13 21:59:15 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/popt/libpopt0/libpopt0-1.6.4-4.tar.bz2
+2009/08/13 21:59:16 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/readline/libreadline6/libreadline6-5.2.14-12.tar.bz2
+2009/08/13 21:59:16 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/login/login-1.10-1.tar.bz2
+2009/08/13 21:59:18 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/man/man-1.6e-1.tar.bz2
+2009/08/13 21:59:19 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/rebase/rebase-3.0-2.tar.bz2
+2009/08/13 21:59:20 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/run/run-1.1.11-1.tar.bz2
+2009/08/13 21:59:21 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/sed/sed-4.1.5-2.tar.bz2
+2009/08/13 21:59:26 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/tar/tar-1.21-1.tar.bz2
+2009/08/13 21:59:26 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/termcap/termcap-20050421-1.tar.bz2
+2009/08/13 21:59:27 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/terminfo/terminfo-5.7_20090228-1.tar.bz2
+2009/08/13 21:59:27 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/terminfo/terminfo0/terminfo0-5.5_20061104-2.tar.bz2
+2009/08/13 21:59:32 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/texinfo/texinfo-4.13-3.tar.bz2
+2009/08/13 21:59:36 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/tzcode/tzcode-2008h-1.tar.bz2
+2009/08/13 21:59:36 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/which/which-2.20-1.tar.bz2
+2009/08/13 21:59:37 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/zlib/zlib0/zlib0-1.2.3-3.tar.bz2
+2009/08/13 21:59:37 Downloaded C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/_update-info-dir/_update-info-dir-00827-1.tar.bz2
+2009/08/13 21:59:38 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/alternatives/alternatives-1.3.30c-3.tar.bz2
+2009/08/13 21:59:38 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/ash/ash-20040127-4.tar.bz2
+2009/08/13 21:59:38 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/base-files/base-files-3.7-1.tar.bz2
+2009/08/13 21:59:38 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/base-passwd/base-passwd-2.2-1.tar.bz2
+2009/08/13 21:59:38 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/bash/bash-3.2.49-22.tar.bz2
+2009/08/13 21:59:38 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/bzip2/bzip2-1.0.5-3.tar.bz2
+2009/08/13 21:59:38 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/coreutils/coreutils-6.10-2.tar.bz2
+2009/08/13 21:59:40 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/crypt/crypt-1.1-1.tar.bz2
+2009/08/13 21:59:40 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/cygutils/cygutils-1.3.4-1.tar.bz2
+2009/08/13 21:59:40 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/cygwin/cygwin-1.5.25-15.tar.bz2
+2009/08/13 21:59:41 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/cygwin-doc/cygwin-doc-1.4-4.tar.bz2
+2009/08/13 21:59:42 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/editrights/editrights-1.01-2.tar.bz2
+2009/08/13 21:59:42 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/findutils/findutils-4.4.0-3.tar.bz2
+2009/08/13 21:59:43 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/gawk/gawk-3.1.6-1.tar.bz2
+2009/08/13 21:59:43 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/gettext/gettext-0.17-4.tar.bz2
+2009/08/13 21:59:43 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/grep/grep-2.5.3-1.tar.bz2
+2009/08/13 21:59:43 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/groff/groff-1.19.2-2.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/gzip/gzip-1.3.12-2.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/less/less-382-1.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/bzip2/libbz2_1/libbz2_1-1.0.5-3.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/gcc4/libgcc1/libgcc1-4.3.2-2.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/libiconv/libiconv2/libiconv2-1.13-1.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/gettext/libintl3/libintl3-0.14.5-1.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/gettext/libintl8/libintl8-0.17-4.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/ncurses/libncurses8/libncurses8-5.5-4.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/ncurses/libncurses9/libncurses9-5.7-5.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/pcre/libpcre0/libpcre0-7.8-1.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/popt/libpopt0/libpopt0-1.6.4-4.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/readline/libreadline6/libreadline6-5.2.14-12.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/login/login-1.10-1.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/man/man-1.6e-1.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/rebase/rebase-3.0-2.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/run/run-1.1.11-1.tar.bz2
+2009/08/13 21:59:45 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/sed/sed-4.1.5-2.tar.bz2
+2009/08/13 21:59:46 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/tar/tar-1.21-1.tar.bz2
+2009/08/13 21:59:46 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/termcap/termcap-20050421-1.tar.bz2
+2009/08/13 21:59:46 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/terminfo/terminfo-5.7_20090228-1.tar.bz2
+2009/08/13 21:59:46 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/terminfo/terminfo0/terminfo0-5.5_20061104-2.tar.bz2
+2009/08/13 21:59:46 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/texinfo/texinfo-4.13-3.tar.bz2
+2009/08/13 21:59:47 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/tzcode/tzcode-2008h-1.tar.bz2
+2009/08/13 21:59:49 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/which/which-2.20-1.tar.bz2
+2009/08/13 21:59:49 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/zlib/zlib0/zlib0-1.2.3-3.tar.bz2
+2009/08/13 21:59:49 Installing file://C:\Documents and Settings\Win XP\Desktop/http%3a%2f%2fwww.goh4.com%2fcygwin%2f/release/_update-info-dir/_update-info-dir-00827-1.tar.bz2
+2009/08/13 21:59:49 Visited: 43 nodes out of 1524.
+2009/08/13 21:59:49 Dependency ordered install:
+2009/08/13 21:59:49 cygwin
+2009/08/13 21:59:49 libiconv2
+2009/08/13 21:59:49 libintl8
+2009/08/13 21:59:49 alternatives
+2009/08/13 21:59:49 crypt
+2009/08/13 21:59:49 libintl3
+2009/08/13 21:59:49 terminfo0
+2009/08/13 21:59:49 libncurses8
+2009/08/13 21:59:49 texinfo
+2009/08/13 21:59:49 _update-info-dir
+2009/08/13 21:59:49 gawk
+2009/08/13 21:59:49 tzcode
+2009/08/13 21:59:49 coreutils
+2009/08/13 21:59:49 terminfo
+2009/08/13 21:59:49 libncurses9
+2009/08/13 21:59:49 libreadline6
+2009/08/13 21:59:49 bash
+2009/08/13 21:59:49 ash
+2009/08/13 21:59:49 findutils
+2009/08/13 21:59:49 sed
+2009/08/13 21:59:49 base-files
+2009/08/13 21:59:49 base-passwd
+2009/08/13 21:59:49 libbz2_1
+2009/08/13 21:59:49 bzip2
+2009/08/13 21:59:49 libpopt0
+2009/08/13 21:59:49 cygutils
+2009/08/13 21:59:49 groff
+2009/08/13 21:59:49 gzip
+2009/08/13 21:59:49 termcap
+2009/08/13 21:59:49 less
+2009/08/13 21:59:49 man
+2009/08/13 21:59:49 cygwin-doc
+2009/08/13 21:59:49 editrights
+2009/08/13 21:59:49 gettext
+2009/08/13 21:59:49 libpcre0
+2009/08/13 21:59:49 grep
+2009/08/13 21:59:49 libgcc1
+2009/08/13 21:59:49 login
+2009/08/13 21:59:49 rebase
+2009/08/13 21:59:49 run
+2009/08/13 21:59:49 tar
+2009/08/13 21:59:49 which
+2009/08/13 21:59:49 zlib0
+2009/08/13 21:59:49 running: C:\cygwin\bin\bash.exe -c /etc/postinstall/terminfo0.sh
+2009/08/13 21:59:57 running: C:\cygwin\bin\bash.exe -c /etc/postinstall/update-info-dir.sh
+2009/08/13 22:00:00 running: C:\cygwin\bin\bash.exe -c /etc/postinstall/coreutils.sh
+2009/08/13 22:00:00 running: C:\cygwin\bin\bash.exe -c /etc/postinstall/terminfo.sh
+2009/08/13 22:00:04 running: C:\cygwin\bin\bash.exe -c /etc/postinstall/bash.sh
+2009/08/13 22:00:05 running: C:\cygwin\bin\bash.exe -c /etc/postinstall/base-files-mketc.sh
+2009/08/13 22:00:06 running: C:\cygwin\bin\bash.exe -c /etc/postinstall/base-files-profile.sh
+2009/08/13 22:00:06 running: C:\cygwin\bin\bash.exe -c /etc/postinstall/passwd-grp.sh
+2009/08/13 22:00:07 running: C:\cygwin\bin\bash.exe -c /etc/postinstall/man.sh
+2009/08/13 22:00:07 running: C:\cygwin\bin\bash.exe -c /etc/postinstall/cygwin-doc.sh
+2009/08/13 22:05:59 note: Installation Complete
+2009/08/13 22:05:59 Ending cygwin install
