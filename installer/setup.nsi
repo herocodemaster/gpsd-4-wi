@@ -83,7 +83,7 @@ Function OnCheckbox
 FunctionEnd
 Function .onInstSuccess
 	${If} $boolCHECKBOX != "False"
-        Exec "$INSTDIR\gpsd4win.bat"
+        Exec "$INSTDIR\bin\gpsd4win.bat"
     ${EndIf}
 FunctionEnd
 
@@ -117,7 +117,7 @@ SectionEnd
 ; Optional Shortcuts sections (can be disabled by the user)
 Section "Start Menu Shortcuts"
     CreateDirectory "$SMPROGRAMS\${PRODUCT_NAME}"
-    CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\${PRODUCT_NAME}.lnk" "$INSTDIR\gpsd4win.bat" "" "$INSTDIR\gpsd4win.bat" 0
+    CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\${PRODUCT_NAME}.lnk" "$INSTDIR\bin\gpsd4win.bat" "" "$INSTDIR\bin\gpsd4win.bat" 0
     CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\Uninstall ${PRODUCT_NAME}.lnk" "$INSTDIR\uninstall.exe" "" "$INSTDIR\uninstall.exe" 0
     ; Create a shortcut to the project Homepage
     WriteIniStr "$INSTDIR\${PRODUCT_NAME}.url" "InternetShortcut" "URL" "${PRODUCT_WEB_SITE}"
@@ -125,11 +125,11 @@ Section "Start Menu Shortcuts"
 SectionEnd
 
 Section "Desktop Shortcut"
-    CreateShortCut "$DESKTOP\${PRODUCT_NAME}.lnk" "$INSTDIR\gpsd4win.bat" "" "$INSTDIR\gpsd4win.bat" 0
+    CreateShortCut "$DESKTOP\${PRODUCT_NAME}.lnk" "$INSTDIR\bin\gpsd4win.bat" "" "$INSTDIR\bin\gpsd4win.bat" 0
 SectionEnd
 
 Section "Quick Launch Shortcut"
-    CreateShortCut "$QUICKLAUNCH\${PRODUCT_NAME}.lnk" "$INSTDIR\gpsd4win.bat" "" "$INSTDIR\gpsd4win.bat" 0
+    CreateShortCut "$QUICKLAUNCH\${PRODUCT_NAME}.lnk" "$INSTDIR\bin\gpsd4win.bat" "" "$INSTDIR\bin\gpsd4win.bat" 0
 SectionEnd
 
 ;--------------------------------
