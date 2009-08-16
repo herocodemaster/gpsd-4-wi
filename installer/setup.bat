@@ -12,8 +12,9 @@
 @MD tempInst
 
 :: Combine the binaries in temp 
+@XCOPY /E binary\images\* tempInst
 @XCOPY /E binary\cygwin\* tempInst
-@XCOPY /E binary\gpsd\* tempInst
+@XCOPY /E binary\gpsd\* tempInst\bin
 
 :: Launch the NSIS setup
 @COLOR 0B
