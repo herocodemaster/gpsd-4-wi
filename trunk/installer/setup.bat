@@ -13,6 +13,7 @@
 
 :: Combine the binaries in temp 
 @XCOPY /E binary\images\* tempInst
+@XCOPY /E binary\batch\* tempInst
 @XCOPY /E binary\cygwin\* tempInst
 @XCOPY /E binary\gpsd\* tempInst\bin
 
