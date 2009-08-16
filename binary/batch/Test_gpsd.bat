@@ -1,6 +1,7 @@
-@echo off
+@COLOR 0A
+@ECHO off
 
-C:
-chdir C:\cygwin\bin
+%SystemDrive%
+CHDIR %SystemDrive%\cygwin\bin
 
 gpspipe -w
