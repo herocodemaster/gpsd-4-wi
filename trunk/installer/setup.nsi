@@ -57,7 +57,7 @@ Function finalPage
 
 	nsDialogs::Create 1018
 	Pop $0
-	${NSD_CreateLabel} 75u 30u 80% 8u "${PRODUCT_NAME} was succesfully installed on your computer."
+	${NSD_CreateLabel} 75u 30u 80% 8u "${PRODUCT_NAME} was succesfully installed on your PC."
 	Pop $0
 	${NSD_CreateCheckbox} 80u 50u 50% 8u "Run ${PRODUCT_NAME} v${PRODUCT_VERSION}"
 	Pop $CHECKBOX
@@ -68,7 +68,7 @@ Function finalPage
     ; Add an image
     ${NSD_CreateBitmap} 0 0 100% 40% ""
     Pop $Image
-    ${NSD_SetImage} $Image "$INSTDIR\images\setup.bmp" $ImageHandle
+    ${NSD_SetImage} $Image "$INSTDIR\setup.bmp" $ImageHandle
 	nsDialogs::Show
     ${NSD_freeImage} $ImageHandle
 
