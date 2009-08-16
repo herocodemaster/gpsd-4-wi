@@ -4,8 +4,8 @@
 :: location/course/velocity of the sensors available to be queried 
 :: on TCP port 2947 of the host computer.
 ::
-:: You need to the COM port that your GPS receiver uses.
-:: This batch file used com5 by default
+:: You need to use the COM port that your GPS receiver is using.
+:: This batch file uses com5 by default
 ::
 
 @COLOR 0A
