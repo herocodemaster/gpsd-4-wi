@@ -14,5 +14,22 @@
 %SystemDrive%
 CHDIR %SystemDrive%\cygwin\bin
 
+set PortNum=0
+:repeat
+    set /A PortNum=%PortNum% + 1 
+    IF %PortNum%==256 goto errorNoPortFound
+    reg query HKLM\HARDWARE\DEVICEMAP\SERIALCOMM /f COM%PortNum% /d || goto repeat
+
 :: Replace com5 with your own COM port below
-gpsd -b -N -D 2 /dev/com5 
+gpsd -b -N -D 2 /dev/com%PortNum% 
+
+goto eof
+:errorNoPortFound
+    echo.
+    echo.
+    echo No Serial Port found 
+    echo.
+    echo.
+    pause
+
+:eof
