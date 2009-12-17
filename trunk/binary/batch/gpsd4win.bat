@@ -5,31 +5,48 @@
 :: on TCP port 2947 of the host computer.
 ::
 :: You need to use the COM port that your GPS receiver is using.
-:: This batch file uses com5 by default
+:: This batch file search all port in use
 ::
 
 @COLOR 0A
 @ECHO off
 
-%SystemDrive%
-CHDIR %SystemDrive%\cygwin\bin
+:: Replace with your own COM port to skip search
+SET PortNum=0
 
-set PortNum=0
+IF NOT %PortNum%==0 GOTO launchGPSD
+SET regKey=HKLM\HARDWARE\DEVICEMAP\SERIALCOMM
+
+:: Test a few of the most common ports
+:preferiti
+    FOR %%I IN (5 4 1 3) DO REG QUERY %regKey% /f COM%%I /d | IF %ErrorLevel%==0 SET PortNum=%%I
+    IF NOT %PortNum%==0 GOTO launchGPSD
+
+:: Search all ports from 1 to 255
 :repeat
-    set /A PortNum=%PortNum% + 1 
-    IF %PortNum%==256 goto errorNoPortFound
-    reg query HKLM\HARDWARE\DEVICEMAP\SERIALCOMM /f COM%PortNum% /d || goto repeat
+    CLS
+    SET /A PortNum=%PortNum% + 1 
+    IF %PortNum%==256 GOTO errorNoPortFound
+    REG QUERY %regKey% /f COM%PortNum% /d || GOTO repeat
 
-:: Replace com5 with your own COM port below
-gpsd -b -N -D 2 /dev/com%PortNum% 
+:: Launch GPSD with the given port number
+:launchGPSD
+    IF %PortNum%==0 GOTO errorNoPortFound
+    %SystemDrive%
+    CHDIR %SystemDrive%\cygwin\bin
+    gpsd -b -N -D 2 /dev/com%PortNum% 
 
-goto eof
+GOTO EOF
+
+:: Display an error message
 :errorNoPortFound
-    echo.
-    echo.
-    echo No Serial Port found 
-    echo.
-    echo.
+    COLOR 0C
+    ECHO.
+    ECHO.
+    ECHO  No Serial Port detected! 
+    ECHO  Make sure your GPS is properly connected and try again.
+    ECHO.
+    ECHO.
     pause
 
-:eof
+:EOF
