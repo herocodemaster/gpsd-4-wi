@@ -31,7 +31,7 @@ VIAddVersionKey "FileVersion" "${PRODUCT_VERSION}"
 ;--------------------------------
 ; Pages
 Page components
-Page directory
+;Page directory
 Page instfiles
 Page custom finalPage
 
